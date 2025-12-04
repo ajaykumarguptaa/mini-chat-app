@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(
   cors({
     // origin: process.env.FRONTEND_URL,
-    origin: process.env.FRONTEND_URL,
+    origin:"chat-app-frontend-ochre-eight.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
@@ -41,7 +41,7 @@ const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
     // origin: process.env.FRONTEND_URL,
-    origin: process.env.FRONTEND_URL,
+    origin: 'chat-app-frontend-ochre-eight.vercel.app',
     
     credentials: true,
   },
