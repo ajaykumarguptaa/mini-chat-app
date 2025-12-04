@@ -15,6 +15,7 @@ A real-time team chat application built for a full-stack internship assignment.
 ## Features
 - User signup & login with JWT
 - Channel creation and joining
+- offline presence indicator
 - Real-time messaging in channels (Socket.IO)
 - Message history with pagination ("Load older messages")
 
